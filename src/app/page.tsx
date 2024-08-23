@@ -47,18 +47,7 @@ export default function Page() {
                   </a>
                 </Button>
               ) : null}
-              {RESUME_DATA.contact.tel ? (
-                <Button
-                  className="size-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                    <PhoneIcon className="size-4" />
-                  </a>
-                </Button>
-              ) : null}
+             
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}
@@ -67,7 +56,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={social.url}>
+                  <a href={social.url}  target="_blank">
                     <social.icon className="size-4" />
                   </a>
                 </Button>
@@ -79,11 +68,7 @@ export default function Page() {
                   <span className="underline">{RESUME_DATA.contact.email}</span>
                 </a>
               ) : null}
-              {RESUME_DATA.contact.tel ? (
-                <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                  <span className="underline">{RESUME_DATA.contact.tel}</span>
-                </a>
-              ) : null}
+              
             </div>
           </div>
 
@@ -106,7 +91,7 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline" href={work.link}>
+                      <a className="hover:underline"  target="_blank" href={work.link}>
                         {work.company}
                       </a>
 
@@ -179,10 +164,12 @@ export default function Page() {
             {RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard
+                  logo={project.logo}
                   key={project.title}
                   title={project.title}
                   description={project.description}
                   tags={project.techStack}
+                  storelinks={project.storelinks}
                   link={"link" in project ? project.link.href : undefined}
                 />
               );
@@ -191,18 +178,7 @@ export default function Page() {
         </Section>
       </section>
 
-      <CommandMenu
-        links={[
-          {
-            url: RESUME_DATA.personalWebsiteUrl,
-            title: "Personal Website",
-          },
-          ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
-            url: socialMediaLink.url,
-            title: socialMediaLink.name,
-          })),
-        ]}
-      />
+    
     </main>
   );
 }

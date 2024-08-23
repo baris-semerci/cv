@@ -12,35 +12,49 @@ interface Props {
   description: string;
   tags: readonly string[];
   link?: string;
+  logo: string;
+  storelinks?: readonly string[];
 }
 
-export function ProjectCard({ title, description, tags, link }: Props) {
+export function ProjectCard({ title, description, tags, link, logo, storelinks }: Props) {
   return (
     <Card className="flex flex-col overflow-hidden border border-muted p-3">
-      <CardHeader className="">
-        <div className="space-y-1">
-          <CardTitle className="text-base">
-            {link ? (
-              <a
-                href={link}
-                target="_blank"
-                className="inline-flex items-center gap-1 hover:underline"
-              >
-                {title}{" "}
-                <span className="size-1 rounded-full bg-green-500"></span>
-              </a>
-            ) : (
-              title
-            )}
-          </CardTitle>
-          <div className="hidden font-mono text-xs underline print:visible">
-            {link?.replace("https://", "").replace("www.", "").replace("/", "")}
-          </div>
-          <CardDescription className="font-mono text-xs print:text-[10px]">
+  <CardHeader className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+  <div className="flex items-center space-x-3"> 
+    <a href={link} target="_blank" className="flex-shrink-0">
+      <img src={logo} alt="logo" className="w-8 h-8" /> 
+    </a>
+    <div className="flex-grow min-w-0 "> 
+      <CardTitle className="text-base">
+        {link ? (
+          <a
+            href={link}
+            target="_blank"
+            className="inline-flex items-center gap-1 hover:underline"
+          >
+            {title}{" "}
+          </a>
+        ) : (
+          title
+        )}
+      </CardTitle>
+     
+    </div>
+  </div>
+  <div className="hidden font-mono text-xs underline print:visible">
+    {link?.replace("https://", "").replace("www.", "").replace("/", "")}
+  </div>
+</CardHeader>
+
+<CardDescription className="font-mono text-xs print:text-[10px]">
             {description}
           </CardDescription>
-        </div>
-      </CardHeader>
+
+
+
+       
+     
+
       <CardContent className="mt-auto flex">
         <div className="mt-2 flex flex-wrap gap-1">
           {tags.map((tag) => (
@@ -54,6 +68,31 @@ export function ProjectCard({ title, description, tags, link }: Props) {
           ))}
         </div>
       </CardContent>
+
+
+      <CardContent className="mt-auto flex">
+  <div className={`mt-2 flex ${storelinks?.length === 2 ? 'flex-row' : 'flex-col'} gap-1`}>
+    {storelinks?.map((storelink, index) => (
+      <a
+        key={index}
+        href={ storelink}
+        target="_blank"
+        style={{ width: storelinks.length === 2 ? '50%' : '50%', height: 'auto' }}
+      >
+        <img
+src={index === 0 
+  ? "https://www.jcml-tx.org/ebook/get-it-on-google-play-badge.png/@@images/image.png"
+  : "https://developer.apple.com/assets/elements/icons/download-on-the-app-store/download-on-the-app-store.svg"
+}          alt="logo"
+          style={{ width: '100%', height: 'auto' }} 
+        />
+      </a>
+    ))}
+  </div>
+</CardContent>
+
+
+
     </Card>
   );
 }
