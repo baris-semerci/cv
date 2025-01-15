@@ -30,7 +30,7 @@ export const RESUME_DATA = {
   summary:
     "I use the technical knowledge and problem solving skills I have gained during my university years to develop innovative and user-friendly mobile applications. I strive to master mobile development technologies and constantly follow the latest trends in this field. As an engineer who is prone to teamwork, can think analytically and produce creative solutions, I want to build a career in the world of mobile application development.",
     
-  avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQEXe_iISJ9NoA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1703238163614?e=1730937600&v=beta&t=XnIc89-JMrYAxSSW5d0P2x_v5WwCYwqHaiFT0JA5Zkc",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQEXe_iISJ9NoA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1703238163614?e=1742428800&v=beta&t=N26Lyr0GRUmkmEle0PtBEZ3TadRguZfXphZghoi8n3E",
   personalWebsiteUrl: "www.barissemerci.com",
   contact: {
     email: "barissemerci3@gmail.com",
@@ -74,7 +74,7 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       title: "Mobile Application Developer",
       start: "06.2023",
-      end: null,
+      end: "09.2024",
       description:
         "During my time at Wiro.ai, I developed Miles&Health, a native Android project written with Jetpack Compose. I took part in the development of new features with the backend team in the second phase of the project, which was developed with MVVM architecture. Afterwards, I took part in the realization of the Wiro AI application with Flutter. We developed the project from scratch with my team and we are planning to go to stores soon.",
     },
@@ -124,11 +124,18 @@ export const RESUME_DATA = {
     "Jetpack Compose",
     "Views",
     "Retrofit",
+    "Ktor",
     "MVVM",
     "MVC",
+    "MVI",
+    "Clean Architecture",
     "Multi-Module ARchitecture",
     "Dagger Hilt",
-    "Navigation",
+    "Koin",
+    "Coroutines",
+    "Flow",
+    "Navigation Component",
+    "Firebase",
     "Room",
     "Flutter",
     "React Native",
@@ -252,6 +259,36 @@ export const RESUME_DATA = {
       link: {
         label: "Habit Tracker & Pomodoro Play Store",
         href: "https://play.google.com/store/apps/details?id=com.partnercodes.habittracker",
+      },
+    },
+    {
+      title: "Finger Picker - Random Chooser",
+      techStack: ["Flutter", "Provider"],
+      storelinks: [
+        "https://play.google.com/store/apps/details?id=com.partnercodes.finger_picker",
+        "https://apps.apple.com/tr/app/finger-picker-random-select/id6739286877"
+
+      ],
+      description:"Finger Picker is here to help! Gather your friends, place your fingers on the screen, and let the app choose one at random after 5 seconds.",
+      logo: "https://play-lh.googleusercontent.com/uwOTNdtx-T2yqxTzmEX7unQ5JtYpqBUrtXcgnmdh-a4kxI9bf2rIuu-TqD9-1Zuj5g=w480-h960-rw",
+      link: {
+        label: "Finger Picker - Random Chooser",
+        href: "https://play.google.com/store/apps/details?id=com.partnercodes.finger_picker",
+      },
+    },
+    {
+      title: "Spin The Bottle Fun Party Game",
+      techStack: ["Flutter", "Provider"],
+      storelinks: [
+        "https://play.google.com/store/apps/details?id=com.partnercodes.spin_the_bottle",
+        "https://apps.apple.com/tr/app/spin-the-bottle-party-game/id6739467608"
+
+      ],
+      description:"Spin The Bottle is the ultimate fun game for friends, couples, or family gatherings! ",
+      logo: "https://play-lh.googleusercontent.com/_6YCUSLLanmeGGQZ5WwLuKT8NRZiDdXz5CIr5j3vo5gRmq9r3LpSuStxJDSBopg5Ug=w480-h960-rw",
+      link: {
+        label: "Spin The Bottle Fun Party Game",
+        href: "https://play.google.com/store/apps/details?id=com.partnercodes.spin_the_bottle",
       },
     },
    
