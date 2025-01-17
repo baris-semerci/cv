@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { CalendarIcon, GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
@@ -47,7 +47,19 @@ export default function Page() {
                   </a>
                 </Button>
               ) : null}
-             
+                {RESUME_DATA.personalWebsiteUrl ? (
+                <Button
+                  className="size-8"
+                  variant="outline" 
+                  size="icon"
+                  asChild
+                >
+                  <a href={`https://cal.com/barissemerci`} target="_blank">
+                    <CalendarIcon className="size-4" />
+                  </a>
+                </Button>
+              ) : null}
+              
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}
@@ -61,6 +73,8 @@ export default function Page() {
                   </a>
                 </Button>
               ))}
+
+           
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex print:text-[12px]">
               {RESUME_DATA.contact.email ? (
