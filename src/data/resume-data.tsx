@@ -30,7 +30,7 @@ export const RESUME_DATA = {
   summary:
     "I use the technical knowledge and problem solving skills I have gained during my university years to develop innovative and user-friendly mobile applications. I strive to master mobile development technologies and constantly follow the latest trends in this field. As an engineer who is prone to teamwork, can think analytically and produce creative solutions, I want to build a career in the world of mobile application development.",
     
-  avatarUrl: "https://media.licdn.com/dms/image/v2/D4D03AQEXe_iISJ9NoA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1703238163614?e=1742428800&v=beta&t=N26Lyr0GRUmkmEle0PtBEZ3TadRguZfXphZghoi8n3E",
+  avatarUrl: "/profile.jpg",
   personalWebsiteUrl: "www.barissemerci.com",
   contact: {
     email: "barissemerci3@gmail.com",
