@@ -139,7 +139,13 @@ export const RESUME_DATA = {
     "Room",
     "Flutter",
     "React Native",
-   
+    "Claude Code",
+    "AI-Assisted Development",
+    "Agentic Coding",
+    "Prompt Engineering",
+    "MCP (Model Context Protocol)",
+    "Generative AI",
+    "Replicate API",
   ],
   projects: [
     {
@@ -172,7 +178,7 @@ export const RESUME_DATA = {
     },
     {
       title: "TreePal: Christmas Tree Notes",
-      techStack: ["Flutter", "Supabase", "go_router"],
+      techStack: ["Android", "Kotlin", "Jetpack Compose", "Koin", "Firebase"],
       storelinks: [
         "https://play.google.com/store/apps/details?id=com.partnercodes.treepal",
       ],
