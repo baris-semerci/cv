@@ -138,7 +138,7 @@ export default function Page() {
                       {work.storeLinks.map((storeLink, index) => (
                         <span key={storeLink.href}>
                           {index > 0 && ", "}
-                          <a className="underline hover:no-underline" target="_blank" href={storeLink.href}>
+                          <a className="text-blue-600 underline hover:text-blue-800" target="_blank" href={storeLink.href}>
                             {storeLink.label}
                           </a>
                         </span>
