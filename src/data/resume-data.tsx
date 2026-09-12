@@ -171,6 +171,20 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "TreePal: Christmas Tree Notes",
+      techStack: ["Flutter", "Supabase", "go_router"],
+      storelinks: [
+        "https://play.google.com/store/apps/details?id=com.partnercodes.treepal",
+      ],
+      description:
+        "Plant a Christmas tree, share one link and let your friends decorate it with ornaments and notes you can only read on January 1st.",
+      logo: "https://play-lh.googleusercontent.com/2gYVjRYIK43yJPztMA9td3ytQInAu0aepHGfdq5JOxqHujc-B2EWNqlgtfecPt47lKj6WhzMjnqlgpPhX_zdWw=w480-h960-rw",
+      link: {
+        label: "TreePal Play Store",
+        href: "https://play.google.com/store/apps/details?id=com.partnercodes.treepal",
+      },
+    },
+    {
       title: "Pomodoro 20-20-20: Eye Time",
       techStack: ["Flutter", "Riverpod", "Freezed", "Superwall"],
       storelinks: [
@@ -241,20 +255,6 @@ export const RESUME_DATA = {
       link: {
         label: "Plaka Quiz Play Store",
         href: "https://play.google.com/store/apps/details?id=com.partnercodes.plakatahmin",
-      },
-    },
-    {
-      title: "TreePal: Christmas Tree Notes",
-      techStack: ["Flutter", "Supabase", "go_router"],
-      storelinks: [
-        "https://play.google.com/store/apps/details?id=com.partnercodes.treepal",
-      ],
-      description:
-        "Plant a Christmas tree, share one link and let your friends decorate it with ornaments and notes you can only read on January 1st.",
-      logo: "https://play-lh.googleusercontent.com/2gYVjRYIK43yJPztMA9td3ytQInAu0aepHGfdq5JOxqHujc-B2EWNqlgtfecPt47lKj6WhzMjnqlgpPhX_zdWw=w480-h960-rw",
-      link: {
-        label: "TreePal Play Store",
-        href: "https://play.google.com/store/apps/details?id=com.partnercodes.treepal",
       },
     },
     {
