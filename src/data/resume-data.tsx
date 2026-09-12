@@ -60,12 +60,6 @@ export const RESUME_DATA = {
       start: "2017",
       end: "2022",
     },
-    {
-      school: "Istanbul University Open Education Faculty",
-      degree: "Bachelor's Degree in Management Information Systems (Online)",
-      start: "2022",
-      end: "Present",
-    },
   ],
   work: [
     {
