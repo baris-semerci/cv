@@ -70,7 +70,17 @@ export const RESUME_DATA = {
       start: "06.2023",
       end: "09.2024",
       description:
-        "During my time at Wiro.ai, I developed Miles&Health, a native Android project written with Jetpack Compose. I took part in the development of new features with the backend team in the second phase of the project, which was developed with MVVM architecture. Afterwards, I took part in the realization of the Wiro AI application with Flutter. We developed the project from scratch with my team and we are planning to go to stores soon.",
+        "During my time at Wiro.ai, I developed Miles&Health, a native Android project written with Jetpack Compose. I took part in the development of new features with the backend team in the second phase of the project, which was developed with MVVM architecture. Afterwards, I took part in the realization of the Wiro AI application with Flutter. We developed the project from scratch with my team and it is now live on the stores",
+      storeLinks: [
+        {
+          label: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=ai.wiro.android&hl=en",
+        },
+        {
+          label: "App Store",
+          href: "https://apps.apple.com/tr/app/ai-video-generator-wiro-ai/id6479306352",
+        },
+      ],
     },
     {
       company: "Garanti BBVA Technology",

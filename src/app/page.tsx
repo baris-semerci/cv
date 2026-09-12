@@ -132,6 +132,20 @@ export default function Page() {
                 </CardHeader>
                 <CardContent className="mt-2 text-xs print:text-[10px]">
                   {work.description}
+                  {"storeLinks" in work && (
+                    <>
+                      {" ("}
+                      {work.storeLinks.map((storeLink, index) => (
+                        <span key={storeLink.href}>
+                          {index > 0 && ", "}
+                          <a className="underline hover:no-underline" target="_blank" href={storeLink.href}>
+                            {storeLink.label}
+                          </a>
+                        </span>
+                      ))}
+                      {")."}
+                    </>
+                  )}
                 </CardContent>
               </Card>
             );
