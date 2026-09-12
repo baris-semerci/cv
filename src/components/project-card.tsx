@@ -80,9 +80,9 @@ export function ProjectCard({ title, description, tags, link, logo, storelinks }
         style={{ width: storelinks.length === 2 ? '50%' : '50%', height: 'auto' }}
       >
         <img
-src={index === 0 
-  ? "https://www.jcml-tx.org/ebook/get-it-on-google-play-badge.png/@@images/image.png"
-  : "https://developer.apple.com/assets/elements/icons/download-on-the-app-store/download-on-the-app-store.svg"
+src={storelink.includes("apps.apple.com")
+  ? "https://developer.apple.com/assets/elements/icons/download-on-the-app-store/download-on-the-app-store.svg"
+  : "https://www.jcml-tx.org/ebook/get-it-on-google-play-badge.png/@@images/image.png"
 }          alt="logo"
           style={{ width: '100%', height: 'auto' }} 
         />

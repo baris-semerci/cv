@@ -143,6 +143,121 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "DualShot: Front & Back",
+      techStack: ["iOS", "Swift", "SwiftUI", "AVFoundation", "RevenueCat"],
+      storelinks: [
+        "https://apps.apple.com/us/app/dualshot-front-back/id6808953201",
+      ],
+      description:
+        "Capture the view and your face in the same shot. DualShot records photos and video with the front and back cameras at once and combines them into one finished result.",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/ef/92/70ef9254-11c8-8ce0-8899-bd173a571e37/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      link: {
+        label: "DualShot App Store",
+        href: "https://apps.apple.com/us/app/dualshot-front-back/id6808953201",
+      },
+    },
+    {
+      title: "Water Eject Speaker Clean",
+      techStack: ["iOS", "Swift", "SwiftUI", "AVFoundation", "RevenueCat"],
+      storelinks: [
+        "https://apps.apple.com/us/app/water-eject-speaker-clean/id6808916435",
+      ],
+      description:
+        "Water in your iPhone speaker? Water Eject plays a 15-second low-frequency sound sweep to help push water out of the speaker grille.",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/71/3d/1c713d03-7a41-163a-958f-f98d676b8752/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      link: {
+        label: "Water Eject App Store",
+        href: "https://apps.apple.com/us/app/water-eject-speaker-clean/id6808916435",
+      },
+    },
+    {
+      title: "Pomodoro 20-20-20: Eye Time",
+      techStack: ["Flutter", "Riverpod", "Freezed", "Superwall"],
+      storelinks: [
+        "https://apps.apple.com/tr/app/pomodoro-20-20-20-eye-time/id6743449621",
+      ],
+      description:
+        "A simple timer that helps you follow the 20-20-20 eye care rule: every 20 minutes, take a 20-second break and look at something 20 feet away.",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/a5/9f/92a59f79-9b32-afef-61cb-06b70dee85bc/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+      link: {
+        label: "Eye Time App Store",
+        href: "https://apps.apple.com/tr/app/pomodoro-20-20-20-eye-time/id6743449621",
+      },
+    },
+    {
+      title: "Esmaül Hüsna Allah'ın 99 İsmi",
+      techStack: ["Flutter", "Riverpod"],
+      storelinks: [
+        "https://play.google.com/store/apps/details?id=com.partnercodes.esmaulhusna",
+        "https://apps.apple.com/tr/app/esma%C3%BCl-h%C3%BCsna-allah%C4%B1n-99-i-smi/id6743176327",
+      ],
+      description:
+        "Learn, memorize and understand the meanings of the 99 names of Allah with the flashcard method.",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2c/17/97/2c179756-b6d4-7f46-240f-193b75d3f27a/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+      link: {
+        label: "Esmaül Hüsna Play Store",
+        href: "https://play.google.com/store/apps/details?id=com.partnercodes.esmaulhusna",
+      },
+    },
+    {
+      title: "İftara Ne Kadar Var?",
+      techStack: ["Flutter", "Riverpod", "Dio", "Mixpanel", "Sentry"],
+      storelinks: [
+        "https://play.google.com/store/apps/details?id=com.partnercodes.iftara_ne_kadar_kaldi",
+        "https://apps.apple.com/tr/app/i-ftara-ne-kadar-var/id6742567490",
+      ],
+      description:
+        "A Ramadan countdown that shows how much time is left until iftar, second by second, with location-based iftar times and dark mode.",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/0e/5e/c50e5e65-960e-0b7d-c3b8-1655b2f243ac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      link: {
+        label: "İftara Ne Kadar Var? Play Store",
+        href: "https://play.google.com/store/apps/details?id=com.partnercodes.iftara_ne_kadar_kaldi",
+      },
+    },
+    {
+      title: "Qibla Compass Finder",
+      techStack: ["Flutter", "Riverpod", "Geolocator", "AdMob"],
+      storelinks: [
+        "https://play.google.com/store/apps/details?id=com.partnercodes.qibla_finder",
+        "https://apps.apple.com/tr/app/qibla-compass-finder/id6741383226",
+      ],
+      description:
+        "Find the accurate Qibla direction from anywhere in the world with a precise compass that points you toward Mecca.",
+      logo: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/4d/16/674d167b-2d93-021b-28ba-6449851f1c6e/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+      link: {
+        label: "Qibla Compass Finder Play Store",
+        href: "https://play.google.com/store/apps/details?id=com.partnercodes.qibla_finder",
+      },
+    },
+    {
+      title: "Plaka Quiz: Türkiye Şehirleri",
+      techStack: ["Android", "Kotlin", "Room", "Dagger Hilt", "Navigation"],
+      storelinks: [
+        "https://play.google.com/store/apps/details?id=com.partnercodes.plakatahmin",
+      ],
+      description:
+        "Learn the license plate codes of Turkey's 81 provinces and test your memory by guessing cities from their plate numbers.",
+      logo: "https://play-lh.googleusercontent.com/X1JQwniE3aU33czkI2TLX_CsxnazszgCWqkBy9RIOEOlejphFTPsDDHbbqr9cXeyKUTxyqLi0QQgSRKUYiHRDg=w480-h960-rw",
+      link: {
+        label: "Plaka Quiz Play Store",
+        href: "https://play.google.com/store/apps/details?id=com.partnercodes.plakatahmin",
+      },
+    },
+    {
+      title: "TreePal: Christmas Tree Notes",
+      techStack: ["Flutter", "Supabase", "go_router"],
+      storelinks: [
+        "https://play.google.com/store/apps/details?id=com.partnercodes.treepal",
+      ],
+      description:
+        "Plant a Christmas tree, share one link and let your friends decorate it with ornaments and notes you can only read on January 1st.",
+      logo: "https://play-lh.googleusercontent.com/2gYVjRYIK43yJPztMA9td3ytQInAu0aepHGfdq5JOxqHujc-B2EWNqlgtfecPt47lKj6WhzMjnqlgpPhX_zdWw=w480-h960-rw",
+      link: {
+        label: "TreePal Play Store",
+        href: "https://play.google.com/store/apps/details?id=com.partnercodes.treepal",
+      },
+    },
+    {
       title: "Noted",
       techStack: [
         "Android",
